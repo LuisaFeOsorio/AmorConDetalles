@@ -104,15 +104,16 @@
 </header>
 
 <!-- HERO SECTION OPTIMIZADA PARA MÓVIL Y PC -->
-<section class="relative h-[85dvh] sm:h-[90dvh] lg:h-screen flex items-center justify-center pt-24 lg:pt-0 overflow-hidden">
+<!-- HERO SECTION OPTIMIZADA (Altura equilibrada para imagen horizontal) -->
+<section class="relative h-[70vh] sm:h-[85vh] lg:h-screen flex items-center justify-center pt-24 lg:pt-0 overflow-hidden">
 
   <!-- Imagen de Fondo (Local) -->
-  <div class="absolute inset-0 z-0">
+  <div class="absolute inset-0 z-0 bg-brand-dark">
     <img src="img/hero.png"
          alt="Fachada Floristería Amor con Detalles"
-         class="w-full h-full object-cover object-top">
+         class="w-full h-full object-cover object-center opacity-9oomla">
     <!-- Overlay Oscuro para legibilidad -->
-    <div class="absolute inset-0 bg-black/65"></div>
+    <div class="absolute inset-0 bg-black/55"></div>
   </div>
 
   <!-- Contenido Hero -->
@@ -132,7 +133,6 @@
 
   </div>
 </section>
-
 <!-- BENEFITS MARQUEE TICKER BANNER -->
 <section class="bg-brand-fuchsia text-white py-3 overflow-hidden border-y border-brand-fuchsiaDark">
   <div class="animate-ticker whitespace-nowrap flex items-center text-[10px] sm:text-xs font-bold tracking-widest uppercase gap-6 sm:gap-8">
